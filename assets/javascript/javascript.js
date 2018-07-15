@@ -4,7 +4,7 @@ function renderButtons() {
     $('#animalButtons').empty();
 
     for (var i = 0; i < topics.length; i++) {
-        var animalBut = $('<button>');
+        var animalBut = $('<button class="btn btn-primary">');
         animalBut.addClass('animal');
         animalBut.attr('type', 'button');
         animalBut.attr('data-name', topics[i]);
